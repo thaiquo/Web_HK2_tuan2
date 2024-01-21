@@ -1,0 +1,63 @@
+body{
+    justify-content: center;
+    background: url(../Tuan2/Bai3/background.jpg);
+}
+h2{
+    background-color: green;
+    letter-spacing: 7px;
+    font-style: italic;
+}
+h3{
+    background-color: green;
+    width: 350px;
+}
+.cen{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.section{
+
+border-right: 2px solid green ;
+
+height: 770px;
+width: 30%;
+justify-content: center;
+}
+li>a{
+text-decoration: none;
+}
+.menu{
+list-style: none;
+width: 350px;
+background-color: aliceblue;
+}
+.menu>li{
+ padding: 5px;
+border-bottom: 1px solid #333;
+margin-bottom: 5px;
+margin-top: 5px;
+
+}
+.menu>li:last-child{
+border-bottom: none;
+}
+.menu>li:hover{
+background-color: aqua;
+}
+.aside{
+
+color: white;
+display: block;
+justify-content: center;
+}
+
+
+.foot{
+ flex-wrap: nowrap;
+border-top: 2px solid green;
+}
+.foot>h4{
+color: white;
+text-align: center;
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* * {
+            margin: 0px auto;
+            padding: 0px;
+        } */
+        
+        .wrap {
+            width: auto;
+            height: 930px;
+            border: 3px solid #333;
+            position: relative;
+            flex-wrap: nowrap;
+        }
+        
+        .head {
+            margin: 0px auto;
+            background-color: rgb(212, 123, 167);
+        }
+        
+        h1 {
+            padding-left: 30%;
+            font-style: oblique;
+            color: red;
+        }
+        h2{
+            background-color: rgb(171, 102, 113);
+            text-align: justify;
+            width: 300px;
+            margin-left: 80px;
+            letter-spacing: 10px;
+           
+        }
+        .menu {
+            display: flex;
+            position: relative;
+            justify-content: center;
+        }
+        
+        .menu>li {
+            list-style: none;
+            margin-left: 10px;
+            text-indent: 85px;
+            border-left: 2px solid rgb(39, 9, 73);
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        .nav {
+            width: 100%;
+            height: 30px;
+        }
+        .main{
+            display: flex;
+            position: absolute;
+            height: 77%;
+            border: 2px solid #333;
+        }
+        /* -------------- */
+        .section{
+            height: 800px;
+           
+        }
+        .section>.lit{
+           list-style: none;
+        }
+        .section>.lit>li{
+            width: 230px;
+            height: 28px;
+            border-radius: 4px;
+            background-color: palevioletred;
+            margin: 8px;
+            text-align: center;
+        }
+        /* ---------------- */
+         .cen{
+            height: 80%;
+            width: 40%;
+            margin-left: 100px;
+         }
+         .cen>ul{
+            list-style: none;
+         }
+         .aside{
+            margin-left: 10px;
+            width: 620px;
+            height: 720px;
+            background-color: #333;
+            color: white;
+         }
+         .foot{
+          position: fixed;
+           bottom: 0;
+           width: 98%;
+         }
+    </style>
+
+</head>
+
+<body>
+<div class="wrap">
+        <header>
+        <h1>EXAMPLE CAFE </h1>
+        <div class="head">
+
+            <hr>
+            <div class="nav">
+                <ul class="menu">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="" style="width: 30px;">
+
+                    <li><a href="">STARTER</a></li>
+                    <li><a href="">MAIN COURSES</a></li>
+                    <li><a href="">DESSERSTS</a></li>
+                    <li><input type="text"> <input type="button" value="Go"></li>
+                </ul>
+            </div>
+            <hr>
+        </div>
+    </header>
+
+ <div class="main">
+        <div class="section">
+              <ul class="lit">
+               <li><a href="">Cafe Latte</a> </li>
+                <li><a href="">Campuchino</a></li>
+              <li><a href="">Ocean Blue</a></li>
+              <li><a href="">Ice-cream Blue</a></li>
+             <li><a href="">Order Online</a></li>
+             <img style="height: 150px;width: 230px;border-radius: 50%; display: block; box-shadow: 15px 15px 10px rgb(233, 145, 160);" src="../Tuan2/Bai1/company.png" alt="">
+             </ul>
+        </div>
+
+      <div class="cen">
+            <h2>Starter</h2>
+                <ul>
+                     <li>Chesnut and Mushroom Goujons</li>
+                      <li>Goat Cheese</li>
+                      <li>HONEY SOY CHICKEN KENBABS(V)</li>
+                     <li>seafood Salad</li>
+                 </ul>
+
+                        <a href="">Back to top</a>
+            <h2>Desserts</h2>
+                    <ul>
+                        <li>Lemon Sorbet</li>
+                        <li>Chocolate Mud Pie(V)</li>
+                         <li> Pecan Pie(V)</li>
+                        <li>Selection of fine Cheeses from Around the World(V)</li>
+                    </ul>
+                        <a href="">Back to top</a>
+
+             <h2>INFORMATION</h2>
+                     <form action="" class="cenform">
+                       <input type="text" value="First Name"> <input type="text" value="Last Name"> <br>
+                       <input type="text" value="Email:"> <input type="text" value="Telephone:"> <br>
+                       <select style="width: 170px;" name="" id="" ><option value="">USA</option><option value="">VietNam</option></select>
+                         <input type="checkbox"> Vietnames <input type="checkbox">English  
+                       <input type="text" value="Comment"><br>
+                       <input type="button" value="Submit"> <input type="button" value="Cancel">
+                     </form>
+        </div>
+
+
+        <div class="aside">
+            <h1 style="color: white; ;">Events</h1>
+
+            <h3>Regular Meetings</h3>
+            <img  style="height: 180px;width: 300px;" src="../Tuan2/Bai1/meeting.png" alt="">
+            <p>Host your regular team meetings or activities in the comfort of your own private room. Charge up on Kith's aromatic coffee and delectable dishes for that extra boost in your work! </p>
+
+            <h3>Product Launches</h3>
+            <img style="height: 180px;width: 300px;" src="../Tuan2/Bai1/launch.png" alt="">
+            <p>Launch your product with ease in a space that truly fits its image. Create an unforgettable experience for your guests with our spacious outlets! Whether you want to host an intimate celebration or launch an event for hundreds of guests, Kith's space is customisable to your needs</p>
+        </div>
+    </div>
+    
+    
+     <div class="foot">
+        <h1 style="color: aliceblue; align-content: center; background-color: pink;">ABC COMPANY - 12345678 - abccoffea@gmail.com</h1>
+      </div>
+    
+</div>
+</body>
+
+</html>
